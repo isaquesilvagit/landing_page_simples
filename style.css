@@ -90,6 +90,19 @@ body img{
 
 }
 
+@media(max-width: 1440px){
+    body img{
+        width: 1440px;
+    }
+
+    main img{
+        width: 360px;
+        height: 360px;
+        margin-left: 95px;
+    }
+
+}
+
 @media(max-width: 768px){
     body img{
         width: 768px;
