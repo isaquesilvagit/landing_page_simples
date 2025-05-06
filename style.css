@@ -95,7 +95,12 @@ body img{
         width: 100%;
         height: auto;
     }
-    
+
+    main{
+        width: 100%;
+        height: auto;
+    }
+
     main img{
         width: 360px;
         height: 360px;
@@ -105,11 +110,6 @@ body img{
 }
 
 @media(max-width: 768px){
-    body img{
-        width: 768px;
-        height: 240px;
-    }
- 
    main img{
        width: 180px;
        height: 180px;
@@ -119,11 +119,6 @@ body img{
 }
 
 @media(max-width: 640px){
-    body img{
-        width: 640px;
-        height: 240px;
-    }
-
     main img{
         width: 160px ;
         height: 160px;
@@ -135,11 +130,6 @@ body img{
 }
 
 @media(max-width: 624px){
-    body img{
-        width: 624px;
-        height: 220px;
-    }
-
     main img{
         width: 160px;
         height: 160px;
@@ -151,17 +141,25 @@ body img{
 }
 
 @media(max-width: 390px){
-    body img{
-        width: 385px;
-        height: 160px;
-    }
-
     main img{
         width: 60px;
         height: 60px;
         margin-left: 5px;
         margin-right: 10px;
         margin-bottom: 25px;
+    }
+
+    .footer-content{
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 4rem 1rem;
+        gap: 2rem;
+        margin-top: auto;
+    }
+    
+    .logo-footer{
+        text-align: center;
     }
     
 }
