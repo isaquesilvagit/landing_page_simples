@@ -84,11 +84,13 @@ body img{
 }
 
 @media(max-width: 1600px){
-    main img{
+     main img{
+        max-width: 100%;
         width: 360px;
-        height: 360px;
+        height: auto;
+        display: block;
         margin-left: 120px;
-    }
+    }    
 
 }
 
