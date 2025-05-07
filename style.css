@@ -118,19 +118,20 @@ body img{
 }
 
 @media(max-width: 640px){
-    .home-text{
-        max-width: 16rem;
-        color: white;
-        height: 50%;
-        width: 100%;
-        margin-bottom: auto ;
+    h1{
+      scale: 0.75;
+    }
+
+    h4{
+        scale: 0.75;
     }
 
     main img{
-        width: 160px;
-        height: auto;
-        margin-left: 10px;
+       width: 90px;
+       height: 90px;
+       margin-right: 50px;
     }
+
 }
 
 @media(max-width: 390px){
