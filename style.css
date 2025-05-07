@@ -93,7 +93,6 @@ body img{
     }    
 
 }
-
 @media(max-width: 1440px){
     body img{
         width: 100%;
@@ -108,16 +107,23 @@ body img{
     main img{
         width: auto;
         height: auto;
+        margin-right: 200px;
     }
 
 }
 
 @media(max-width: 768px){
-   main img{
-       width: 180px;
-       height: 180px;
-       margin-right: 200px;
-   }
+   .barber-img{
+    margin: auto;
+    height: auto;
+    width: auto;
+  }
+
+  .barber-img img{
+    width: 50%;
+    height: auto;
+    max-width: 650px;
+  }
 
 }
 
